@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Леонид Адамов](https://up.htmlacademy.ru/htmlcss/20/user/127149).
-* Наставник: `Неизвестно`.
+* Наставник: [Егор Глебов](https://htmlacademy.ru/profile/beast).
 
 ---
 
