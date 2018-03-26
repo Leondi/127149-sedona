@@ -9,13 +9,13 @@
 <body>
   <header class="index-navigation">
     <ul class="header-left">
-      <li>ИНФОРМАЦИЯ</li>
-      <li>ФОТО И ВИДЕО</li>
+      <li> <a href="#" aria-label="Информация"> ИНФОРМАЦИЯ</a></li>
+      <li> <a href="#" aria-label="Фото и видео">ФОТО И ВИДЕО </a></li>
     </ul>
-       <a href="index.html" class="header-logo-center" ><img src="img/logo.png" alt="site-logo" ></a>
+       <a href="index.html" class="header-logo-center" ><img src="img/logo.png" alt="site-logo" width="138" height="70" ></a>
     <ul class="header-right">
-      <li>КАРТА ШТАТА</li>
-      <li>ГОСТИНИЦА</li>
+      <li> <a href="#" aria-label="Карта штата"> КАРТА ШТАТА</a></li>
+      <li> <a href="catalog.html" aria-label="Гостиница">ГОСТИНИЦА</a></li>
     </ul>
   </header>
   <main>
@@ -29,21 +29,18 @@
         <span>№1</span>
         <p>СЕДОНА-НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ,ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
       </div>
-      <div class="top-promo-img">
-        <img src="#" alt="village">
-      </div>
       <div class="top-promo-white">
-        <img src="#" alt="house">
+        <img src="img/icon-1.svg" width="75" height="72" alt="house">
         <h3>ЖИЛЬЕ</h3>
         <p>РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ,ВСЕ КАК В КИНО!</p>
       </div>
       <div class="top-promo-white">
-        <img src="#" alt="eat">
+        <img src="img/icon-3.svg" width="74" height="70" alt="eat">
         <h3>ЕДА</h3>
         <p>ВСЕГДА ЗАКАЗЫВАЙЕ ФИРМЕРНЫЙ БУРГЕР,ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
       </div>
       <div class="top-promo-white">
-        <img src="#" alt="souvenirs">
+        <img src="img/icon-2.svg" width="64" height="76" alt="souvenirs">
         <h3>СУВЕНИРЫ</h3>
         <p>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
       </div>
@@ -71,13 +68,14 @@
     <div class="main-question">
       <h2>ЗАИНТЕРЕСОВАЛИСЬ</h2>
       <p>УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ, И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
-      <input type="button" name="search" value="ПОИСК ГОСТИНИЦЫ В СЕДОНЕ">
+      <label for="button-search">Форма поиска гостиницы в седоне</label>
+      <input type="button" name="search" id="button-search" value="ПОИСК ГОСТИНИЦЫ В СЕДОНЕ">
     </div>
     <div class="map">
-      <img src="#" alt="map">
+      <img src="img/map.jpg" alt="map" width="1200" height="593">
     </div>
-    <div class="search">
-      <form class="search-form" action="index.html" method="post">
+    <div class="search" class = "visually-hidden">
+      <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
         <label for="in">ДАТА ЗАЕЗДА:</label>
         <input id="in" type="text" name="date" value="24 апреля 2017">
         <label for="out">ДАТА ВЫЕЗДА:</label>
@@ -86,24 +84,24 @@
         <input id="adult" type="battom" name="age" value="-">
         <input id="adult" type="battom" name="age" value="+">
         <label for="kids">ДЕТИ:</label>
-        <input type="buttom" name="search" value="НАЙТИ">
+        <input type="button" name="search" value="НАЙТИ">
       </form>
     </div>
   </main>
   <footer>
-    <div class="logo-sedona">
-      <img src="#" alt="visitsedona">
-    </div>
-    <div class="footer-bottom">
+    <span class="logo-sedona">
+      #VISITSEDONA
+    </span>
+    <div class="footer-button">
       <ul class="social-buttons">
-        <li><a href="#" class="social-btn-twitter"></a>Twitter</li>
-        <li><a href="#" class="social-btn-facebook"></a>facebook</li>
-        <li><a href="#" class="social-btn-instagram"></a>instagram</li>
+        <li><a href="#" class="social-btn-twitter" aria-label="Twitter"> <img src="img/twitter.svg" alt="Twitter"></a></li>
+        <li><a href="#" class="social-btn-facebook" aria-label="facebook"><img src="img/fb-icon.svg" alt="Twitter"></a></li>
+        <li><a href="#" class="social-btn-youtube" aria-label="youtube"><img src="img/youtube.svg" alt="youtube"></a></li>
       </ul>
     </div>
     <div class="copyright">
       <p>WEBSITE BY</p>
-      <a class="footer-logo"> <img src="#" alt="htmlacademy"> </a>
+      <a href="https://htmlacademy.ru/intensive/htmlcss" class="footer-logo"> <img src="img/logo-htmlacademy.svg" alt="htmlacademy" width="115" height="41"> </a>
     </div>
   </footer>
 </body>

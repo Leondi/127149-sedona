@@ -9,29 +9,29 @@
 <body>
   <header class="index-navigation">
     <ul class="header-left">
-      <li>ИНФОРМАЦИЯ</li>
-      <li>ФОТО И ВИДЕО</li>
+      <li> <a href="#" aria-label="Информация"> ИНФОРМАЦИЯ</a></li>
+      <li> <a href="#" aria-label="Фото и видео">ФОТО И ВИДЕО </a></li>
     </ul>
-    <a href="index.html" class="header-logo-center" ><img src="img/logo.png" alt="site-logo" ></a>
+       <a href="index.html" class="header-logo-center" ><img src="img/logo.png" alt="site-logo" width="138" height="70" ></a>
     <ul class="header-right">
-      <li>КАРТА ШТАТА</li>
-      <li>ГОСТИНИЦА</li>
+      <li> <a href="#" aria-label="Карта штата"> КАРТА ШТАТА</a></li>
+      <li> <a href="catalog.html" aria-label="Гостиница">ГОСТИНИЦА</a></li>
     </ul>
   </header>
   <main>
-    <div class="search-hotel">
-      <form class="search-hotel-form" action="catalog.html" method="post">
+    <div class="search-hotel" aria-label="форма выбора жилья">
+      <form class="search-hotel-form" action="https://echo.htmlacademy.ru" method="post">
         <div class="infrastructure-box">
-          <label for="infrastructure">ИНФРАСТРУКТУРА</label>
+          <label for="infrastructure" >ИНФРАСТРУКТУРА</label>
           <ul id="infrastructure">
             <li><input type="checkbox" name="pool" value="БАССЕЙН" checked></li>
-            <li><input type="checkbox" name="parking" value="ПАРКОВКА"</li>
+            <li><input type="checkbox" name="parking" value="ПАРКОВКА"></li>
             <li><input type="checkbox" name="wifi" value="WI-FI"> </li>
           </ul>
         </div>
         <div class="house-box">
-          <label for="type-house">ТИП ЖИЛЬЯ</label>
-          <ul id="type-house">
+          <label for="type_of_housing">ТИП ЖИЛЬЯ</label>
+          <ul id="type_of_housing">
             <li><input type="checkbox" name="hotel" value="ГОСТИНИЦА" checked> </li>
             <li><input type="checkbox" name="motel" value="МОТЕЛЬ" checked> </li>
             <li><input type="checkbox" name="appartament" value="АППАРТАМЕНТЫ" checked> </li>
@@ -48,7 +48,7 @@
         <li>НАЙДЕНО:3</li>
         <li>СОРТИРОВКА</li>
       </ul>
-      <ul class="search-output-filter">
+      <ul class="search-output-filter" aria-label="фильтр поиска">
         <li>
           <a href="#" class="active-button">ПО ЦЕНЕ</a>
         </li>
@@ -117,19 +117,19 @@
     </section>
   </main>
   <footer>
-    <div class="logo-sedona">
-      <img src="#" alt="visitsedona">
-    </div>
-    <div class="footer-bottom">
+    <span class="logo-sedona">
+      #VISITSEDONA
+    </span>
+    <div class="footer-button">
       <ul class="social-buttons">
-        <li><a href="#" class="social-btn-twitter"></a>Twitter</li>
-        <li><a href="#" class="social-btn-facebook"></a>facebook</li>
-        <li><a href="#" class="social-btn-instagram"></a>instagram</li>
+        <li><a href="#" class="social-btn-twitter" aria-label="Twitter"> <img src="img/twitter.svg" alt="Twitter"></a></li>
+        <li><a href="#" class="social-btn-facebook" aria-label="facebook"><img src="img/fb-icon.svg" alt="Twitter"></a></li>
+        <li><a href="#" class="social-btn-youtube" aria-label="youtube"><img src="img/youtube.svg" alt="youtube"></a></li>
       </ul>
     </div>
     <div class="copyright">
       <p>WEBSITE BY</p>
-      <a class="footer-logo"> <img src="#" alt="htmlacademy"> </a>
+      <a href="https://htmlacademy.ru/intensive/htmlcss" class="footer-logo"> <img src="img/logo-htmlacademy.svg" alt="htmlacademy"> </a>
     </div>
   </footer>
 </body>
